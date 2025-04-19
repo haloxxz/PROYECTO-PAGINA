@@ -1,0 +1,125 @@
+/* General Styles for the Main Page */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #fff;
+    background: #6ba368; /* Color de césped equilibrado */
+    background-image: linear-gradient(135deg, #6ba368 25%, #5e945e 25%, #5e945e 50%, #6ba368 50%, #6ba368 75%, #5e945e 75%);
+    background-size: 40px 40px; /* Simula líneas de un campo de fútbol */
+}
+
+/* Header Styles */
+header {
+    background: url('../images/futbol-header.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    border-bottom: 5px solid #4e7d4e; /* Línea que simula un borde de campo */
+}
+
+header h1 {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+header p {
+    font-size: 1.3rem;
+    margin-top: 10px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* Navigation Styles */
+nav {
+    background: #4e7d4e; /* Verde más oscuro para contraste */
+    color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-top: 3px solid #3e6b3e; /* Línea superior */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #d4e157; /* Amarillo verdoso para resaltar */
+}
+
+/* Section Styles */
+section {
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 2px solid #4e7d4e; /* Borde que simula líneas de campo */
+}
+
+section h2 {
+    font-size: 2.5rem;
+    color: #4e7d4e;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 2px solid #d4e157; /* Línea decorativa */
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+section p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    text-align: justify;
+    color: #333;
+}
+
+/* Footer Styles */
+footer {
+    background: #4e7d4e;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    border-top: 5px solid #3e6b3e; /* Línea superior */
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+/* Highlight for Main Page */
+.main-highlight {
+    text-align: center;
+    padding: 20px;
+    background: #d4e157; /* Amarillo verdoso para destacar */
+    color: #222;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    border: 2px solid #4e7d4e;
+}
